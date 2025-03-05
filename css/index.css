@@ -1,0 +1,81 @@
+/* Estilo moderno y atractivo */
+body {
+    background: linear-gradient(135deg, #f0f0f0, #d9d9d9);
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #d6336c;
+    font-size: 36px;
+    text-shadow: 3px 3px 10px rgba(214, 51, 108, 0.8);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Menú de navegación con estilo moderno */
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    margin: 12px 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 22px;
+    color: #007bff;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.6);
+}
+
+a:hover {
+    background: #007bff;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 123, 255, 1);
+    transform: scale(1.1);
+}
+
+/* Sección de PDF */
+hr {
+    margin: 30px 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+img {
+    transition: transform 0.3s ease-in-out;
+    width: 50px;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+/* Pie de página */
+div {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+div a {
+    color: #d6336c;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+div a:hover {
+    text-decoration: underline;
+    color: #ff758c;
+}
